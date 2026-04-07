@@ -12,9 +12,7 @@ The goal of this lab is to analyze unencrypted HTTP traffic using Wireshark, und
 
 ## Methodology
 1. Start a local HTTP server using Python:
-\\\bash
-python3 -m http.server 80
-\\\
+`bash python3 -m http.server 80`
 
 2. Open Wireshark and capture packets on the loopback interface (lo / Npcap Loopback) to monitor traffic between the browser and the local server.
 3. Apply the display filter "http" to isolate the HTTP traffic.
