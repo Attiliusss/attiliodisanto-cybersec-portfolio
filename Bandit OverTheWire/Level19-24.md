@@ -7,12 +7,9 @@ During these levels, I learned how to initialize a listening port, how cron jobs
 
 In addition, I used the following script for another specific level:
 
-!/bin/bash
-cp /etc/bandit_pass/bandit_lv /tmp/file_name
-chmod 666 /tmp/file_name
+`#!/bin/bash cp /etc/bandit_pass/bandit_lv /tmp/file_name chmod 666 /tmp/file_name`
 
 
 ## Commands learned
 
 bg, &, tmux, CTRL+Z
-
