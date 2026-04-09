@@ -36,7 +36,35 @@ The goal is to identify signs of malicious activity, including payload delivery 
 
 ## Analysis
 ### Suspicious GET Request (Possible Malware Download)
-A single GET request was observed `GET /hjg766`
+A single GET request was observed:
+- `GET /hjg766`
+- Random, non-human readable URI  
+- Server response:
+  - `200 OK`
+  - `Transfer-Encoding: chunked`
+- Large response body (8000+ bytes)
+- Payload not readable  
+
+**Screenshot:**  
+![Suspicious GET Request](./screenshots/get_request.png)
+
+**Interpretation:**  
+This likely represents a **malicious payload download**, possibly encoded or encrypted.
+
+---
+
+### Chunked Response
+The server response included multiple:
+
+- `Data chunk (XXXX bytes)`
+
+**Screenshot:**  
+![Chunked Response](./screenshots/chunked_response.png)
+
+**Interpretation:**  
+Chunked encoding may be used to:
+- Transfer large payloads
+- Obfuscate malicious content
 
 ---
 
