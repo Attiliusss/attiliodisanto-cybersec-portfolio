@@ -58,19 +58,12 @@ Evidence:
 
 ---
 
-## DNS Analysis (SPF & DMARC)
+## DNS Analysis (SPF & DMARC) & Attachment Analysis
 
 Domain authentication records were analyzed:
 
 - **SPF Record:** `v=spf1 include:spf.protection.outlook.com -all`
 - **DMARC Record:** `v=DMARC1; p=quarantine; fo=1`
-
-Evidence:  
-![SPF DMARC](screenshots/spf_dmarc_hash.png)
-
----
-
-## Attachment Analysis
 
 The email contained a suspicious attachment:
 
@@ -78,7 +71,7 @@ The email contained a suspicious attachment:
 - **SHA256:** `2e91c533615a9bb8929ac4bb76707b2444597ce063d84a4b33525e25074fff3f`
 
 Evidence:  
-![Hash](screenshots/spf_dmarc_hash.png)
+![SPF DMARC](screenshots/spf_dmarc_hash.png)
 
 ---
 
@@ -92,9 +85,8 @@ Evidence:
 
 ### Considerations
 - The actual file type differs from the extension → evasion technique
-- Possible presence of:
-  - malicious macros
-  - hidden redirects
+- Confirms malicious nature
+- Multiple threat classifications
 
 ---
 
@@ -106,7 +98,7 @@ By analyzing the file content:
 - **Impersonated Brand:** `Microsoft`
 
 Evidence:  
-![Impersonation](screenshots/Impersonation.png)
+![Impersonation](screenshots/impersonation.png)
 
 ### Techniques Used
 - Lookalike domain
@@ -162,7 +154,7 @@ By analyzing phishing kit logs:
 - **Repeated victim email:** `michael.ascot@swiftspend.finance`
 
 Evidence:  
-![Credentials](screenshots/credentials_png.png)
+![Credentials](screenshots/credentials.png)
 
 ---
 
