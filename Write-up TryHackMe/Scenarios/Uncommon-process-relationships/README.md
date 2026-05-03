@@ -40,8 +40,8 @@ No interaction detected. VirusTotal analysis did not flag the domain or attachme
 Delete the email and block the sender.
 
 **Screenshots:**
-- ![Phishing Email](screenshots/phishing_email.png)
-- ![Phishing Log](screenshots/phishing_log.png) 
+![Phishing Email](screenshots/phishing_email.png)
+![Phishing Log](screenshots/phishing_log.png) 
 
 ---
 
@@ -68,8 +68,8 @@ PowerView is commonly used for reconnaissance.
 Likely linked to phishing stage. Requires user validation.
 
 **Screenshots:**
-- ![Powershell Script](screenshots/powershell_script.png)  
-- ![Powershell Log](screenshots/powershell_log.png)  
+![Powershell Script](screenshots/powershell_script.png)  
+![Powershell Log](screenshots/powershell_log.png)  
 
 ---
 
@@ -98,8 +98,8 @@ Execution of `net use` via PowerShell from Downloads is suspicious and may indic
 Possible access to financial records.
 
 **Screenshots:**
-- ![Net Exe](screenshots/net_exe.png) 
-- ![Net Log](screenshots/net_log.png)
+![Net Exe](screenshots/net_exe.png) 
+![Net Log](screenshots/net_log.png)
 
 ---
 
@@ -131,16 +131,16 @@ Execution from Downloads increases suspicion.
 Strong indicator of compromise.
 
 **Screenshots:**
-- ![Nslookup](screenshots/nslookup.png) 
-- ![Nslookup Log](screenshots/nslookup_log.png)  
+![Nslookup](screenshots/nslookup.png) 
+![Nslookup Log](screenshots/nslookup_log.png)  
 
 ---
 
 ## Correlation & Pattern
 
 **Screenshots:**
-- ![Alert List](screenshots/alert_list.png)  
-- ![Alert Log](screenshots/list_log.png)
+![Alert List](screenshots/alert_list.png)  
+![Alert Log](screenshots/list_log.png)
 
 Observed behavior:
 - Repeated nslookup execution  
