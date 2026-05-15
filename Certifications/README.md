@@ -12,6 +12,10 @@ This folder showcases my completed TryHackMe certificates, highlighting foundati
   Certificate of completion for the beginner-level cybersecurity path. Gained hands-on exposure to common vulnerabilities, attack vectors, and essential security tools.  
   [View PDF](Certificate_Cybersecurity_101.pdf)
 
+- **SOC Level 1 (TryHackMe)**
+  Completion of the SOC Level 1 Path on TryHackMe, demonstrating foundational knowledge of Security Operations Center (SOC) workflows, including log analysis, threat detection, incident response basics, and the use of common security tools and methodologies.
+  [View PDF](Certificate_SOC_1.pdf)
+
 ---
 
 These certifications reflect my dedication to building practical cybersecurity skills, complementing my hands-on projects and labs. They serve as a foundation for more advanced learning and real-world security challenges.
