@@ -33,7 +33,7 @@ The objective of this investigation was to identify malicious behavior and recon
 **Answer:** `13959`
 
 ### Screenshot
-![Logs Count](screenshots/data.png)
+![Logs Count](Screenshots/data.png)
 
 ---
 
@@ -42,7 +42,7 @@ The objective of this investigation was to identify malicious behavior and recon
 **Answer:** `Amel1a`
 
 ### Screenshot
-![Imposter User](screenshots/impostore.png)
+![Imposter User](Screenshots/impostore.png)
 
 ---
 
@@ -51,7 +51,7 @@ The objective of this investigation was to identify malicious behavior and recon
 **Answer:** `Chris.fort`
 
 ### Screenshot
-![Scheduled Tasks](screenshots/task.png)
+![Scheduled Tasks](Screenshots/task.png)
 
 ---
 
@@ -60,7 +60,7 @@ The objective of this investigation was to identify malicious behavior and recon
 **Answer:** `haroon`
 
 ### Screenshot
-![Suspicious User](screenshots/user.png)
+![Suspicious User](Screenshots/user.png)
 
 ---
 
@@ -95,7 +95,7 @@ The objective of this investigation was to identify malicious behavior and recon
 **Answer:** `https://controlc.com/e4d11035`
 
 ### Screenshot
-![Connection Details](screenshots/info.png)
+![Connection Details](Screenshots/info.png)
 
 ---
 
@@ -104,7 +104,7 @@ The objective of this investigation was to identify malicious behavior and recon
 **Answer:** `THM{KJ&*H^B0}`
 
 ### Screenshot
-![Flag](screenshots/flag.png)
+![Flag](Screenshots/flag.png)
 
 ---
 
