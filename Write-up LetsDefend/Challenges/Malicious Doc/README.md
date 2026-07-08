@@ -32,7 +32,7 @@ The investigation was performed using **VirusTotal** to identify the exploit use
 By analyzing the file information on VirusTotal, the main page provides details about the exploit detected.  
 The document is identified as an RTF exploit and is associated with the vulnerability **CVE-2017-11882**, a known Microsoft Office vulnerability related to the Equation Editor component.
 
-![CVE Information](cve.png)
+![CVE Information](screenshots/cve.png)
 
 ---
 
@@ -49,7 +49,7 @@ In the **Relations** section of VirusTotal, it is possible to identify the exter
 Among the URLs accessed during execution, the downloaded malicious file name is visible: `jan2.exe`
 
 
-![Downloaded Malware](download_malware.png)
+![Downloaded Malware](screenshots/download_malware.png)
 
 ---
 
@@ -66,7 +66,7 @@ The **Behavior** section of VirusTotal provides information about the network ac
 The IP traffic section shows the communication between the malware and the remote server: `185.36.74.48:80`
 
 
-![TCP Connections](tcp_connections.png)
+![TCP Connections](screenshots/tcp_connections.png)
 
 ---
 
@@ -80,7 +80,7 @@ The IP traffic section shows the communication between the malware and the remot
 Inside the **Behavior** section, the **Files dropped** information reveals the executable created on the victim machine after execution: `aro.exe`
 
 
-![Files Dropped](files_dropped.png)
+![Files Dropped](screenshots/files_dropped.png)
 
 ---
 
