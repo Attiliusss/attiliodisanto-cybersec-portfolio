@@ -1,0 +1,23 @@
+Event Time: May, 23, 2021, 07:32 PM
+Source Address: 172.16.17.88
+Source Hostname: MarkPRD
+File Name: ab.exe
+File Hash: 0b486fe0503524cfe4726a4022fa6a68
+Device Action: Allowed
+
+
+When: May, 23, 2021, 07:32 PM
+
+What: Ransomware Detected
+
+Who: Host named MarkPRD with IP address 172.16.17.88
+
+Where: Host with IP address 172.16.17.88 and hostname "MarkPRD"
+
+Why: Possible download and execution of a ransomware malware named ab[.]exe with md5 hash file "0b486fe0503524cfe4726a4022fa6a68"
+
+Additional notes: As shown in the Device Action section, the suspicious file was neither quarantined nor removed. So I verified the suspicious executable on VirusTotal and Hybrid Analysis. Both platforms confirmed that ab[.]exe (MD5: 0b486fe0503524cfe4726a4022fa6a68) is ransomware. I then reviewed the infected host's network logs but did not identify any suspicious outbound traffic. Next, I searched for the victim's IP address in the Endpoint Security console and found a running process with the same filename and matching MD5 hash as the malware. Based on these findings, I isolated the infected host to prevent further impact and escalated the incident for further investigation.
+
+Artifacts:
+Source Address: 172.16.17.88
+File Hash: 0b486fe0503524cfe4726a4022fa6a68
