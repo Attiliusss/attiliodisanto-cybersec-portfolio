@@ -69,10 +69,6 @@ Additionally, **Email Security** logs were checked to determine whether the acti
 
 ---
 
-### Alert Details
-
-![Alert Details](screenshots/alert_details.png)
-
 ### VirusTotal Analysis
 
 ![VirusTotal](screenshots/virustotal.png)
