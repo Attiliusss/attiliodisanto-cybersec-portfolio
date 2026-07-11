@@ -77,7 +77,7 @@ The following evidence was identified:
 
 ![Network Activity](screenshots/EDR_network_activity.png)
 
-![Process Activity](screenshots/EDR_processes_activity.png)
+![Process Activity](screenshots/EDR_process_activity.png)
 
 
 Finally, I compared the endpoint findings with the **Behavior** section of VirusTotal.
