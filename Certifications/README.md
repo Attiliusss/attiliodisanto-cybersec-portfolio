@@ -20,6 +20,10 @@ This folder showcases my completed TryHackMe certificates, highlighting foundati
   Certification earned after successfully completing the **SOC Analyst Learning Path** on LetsDefend. Demonstrates practical knowledge of Security Operations Center (SOC) activities, including security monitoring, alert triage, log analysis, incident investigation, threat detection, and hands-on experience with SIEM platforms and SOC workflows.  
   [View IMG](Certificate_SOC_Analyst_LetsDefend.png)
 
+- **Malware Analysis (LetsDefend)**  
+  Certification earned after successfully completing the **Malware Analysis Skill Path** on LetsDefend. Demonstrates foundational knowledge of malware analysis techniques, including malware behavior analysis, static and dynamic analysis, identifying malicious indicators, understanding attack techniques, and using essential tools and methodologies for investigating suspicious files and threats.  
+  [View IMG](Certificate_Malware_Analysis_LetsDefend.png)
+
 ---
 
 These certifications reflect my dedication to building practical cybersecurity skills, complementing my hands-on projects and labs. They serve as a foundation for more advanced learning and real-world security challenges.
